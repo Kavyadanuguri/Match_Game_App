@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container1 {
+  background-color: #2c0e3a;
+  width: 100%;
+  height: 13vh;
+
+  margin-bottom: -17px;
+}
+.ul-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding: 10px;
+  padding-right: 80px;
+}
+.image1 {
+  width: 200px;
+  height: 50px;
+}
+.con1 {
+  display: flex;
+  flex-direction: row;
+}
+.p1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.span1 {
+  color: #fec653;
+  font-family: 'roboto';
+}
+.image2 {
+  width: 25px;
+  height: 25px;
+  margin-top: 18px;
+}
+
+.p2 {
+  color: #fec653;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.container2 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-con3 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  height: 87vh;
+  flex-direction: column;
+  align-items: center;
+}
+.image3 {
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+}
+.ul-con1 {
+  display: flex;
+  flex-direction: row;
+}
+.list-con1 {
+  list-style-type: none;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.text1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+.hr1 {
+  margin-top: -10px;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.list-con2 {
+  list-style-type: none;
+  margin: 10px;
+}
+.thumbnail-img {
+  width: 120px;
+  height: 120px;
+}
+.button-tabItem {
+  background-color: transparent;
+  border-width: 0px;
+}
+.display-img-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.bg-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 480px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-image {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+
+.trophy-img {
+  width: 300px;
+  height: 200px;
+  margin-top: 110px;
+}
+.score-p1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'roboto';
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.score-p2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'roboto';
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.play-btn {
+  background-color: #cf60c8;
+  border-width: 0px;
+  border-radius: 10px;
+  width: 180px;
+  height: 40px;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+}
+.play-img1 {
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.highlighted {
+  color: #fec653;
+}
+.high {
+  border-color: #fec653;
+  border-width: 2px;
+}
